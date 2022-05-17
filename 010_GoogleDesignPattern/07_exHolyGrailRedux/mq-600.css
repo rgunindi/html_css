@@ -1,0 +1,13 @@
+div{
+    display: flex;
+    flex-flow: row;
+}
+nav{
+    flex-grow: 1;
+}
+article{
+    flex-grow: 2;
+}
+aside{
+    flex-grow: 1;
+}

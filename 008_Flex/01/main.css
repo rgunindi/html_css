@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: mediumslateblue;
+    border: 2px solid blueviolet;
+    /*default*/
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+margin-right: 10px;
+}
+a{
+    color: white;
+    margin: 0;
+text-decoration: none;
+}
+a:hover{
+    background-color: #ff9548;
+}
+.logo img{
+width: 100px;
+height: 80px;
+}

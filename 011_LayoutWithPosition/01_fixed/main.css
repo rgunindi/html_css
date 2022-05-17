@@ -1,0 +1,15 @@
+#one{
+    width: 80px;
+    height: 100px;
+    position: fixed;
+    background-color: red;
+    top: 50vh;
+    left: 50vw;
+}
+
+#two{
+    width: 80%;
+    height: 1000vh;
+    margin: 0 auto;
+    background-color: #ff9548;
+}

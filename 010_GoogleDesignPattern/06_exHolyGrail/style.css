@@ -1,0 +1,22 @@
+body{display: flex;
+flex-flow: row wrap;
+height: 100vh;
+  font-family: "CaskaydiaCove Nerd Font Mono","sans-serif";
+text-align: center;
+}
+header{width: 100%;
+background-color: #ff9548;
+}
+article{
+    text-align: left;
+    background-color: blueviolet;
+}
+aside{
+    background-color: red;
+    width: 50%;
+    border: 2px black solid;
+}
+footer{
+    background-color: darkgreen;
+}
+

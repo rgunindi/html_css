@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    border:2px solid red;
+    width: 90%;
+    height: 200px;
+    overflow: auto;
+    float: right;
+}
+img{float: right; width: 100px;height: 100px;}
+#float2{float: left; width: 10%}

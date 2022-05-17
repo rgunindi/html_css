@@ -1,0 +1,28 @@
+body{display: flex;
+flex-flow: row wrap;
+height: 100vh;
+    background-image: url("../../img/image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "CaskaydiaCove Nerd Font Mono","sans-serif";
+}
+body p{ margin: 0 auto;
+}
+header{width: 100%;}
+
+ul{
+    list-style: none;
+    background: rgba(255,255,255,0);
+}
+a{
+    text-decoration: none;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+a:hover{
+    background: blueviolet;
+}
+a:first-child{
+    /*border: 1px chocolate solid;*/
+}

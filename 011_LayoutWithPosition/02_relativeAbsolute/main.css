@@ -1,0 +1,16 @@
+#one{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: red;
+    /*relative absolute iliskisi icin diger ornegi de burada kodladim*/
+    /*top: 100px;*/
+    /*left: 150px;*/
+}
+#two{
+    position: absolute;
+    height: 50px;
+    background-color: rgb(255,255,255);
+    top: 20%;
+    right: 10%;
+}

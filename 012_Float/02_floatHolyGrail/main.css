@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    border: 0;
+    /*TRBL*/
+    margin: 0 0 10px 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+header,aside,article,footer{border-radius: 5px}
+body{margin: 15px;}
+header{
+    height: 50px;
+    background-color: #ff9548;
+}
+aside{ float: left;
+    width: 24%;
+    height: 300px;
+    background-color: red;
+}
+article{float: right;
+    width: 74%;
+    height: 300px;
+    background-color: blue;
+}
+footer{
+    height: 50px;
+    clear: both;
+    background-color: darkgreen;
+}

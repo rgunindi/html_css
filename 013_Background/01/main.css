@@ -1,0 +1,31 @@
+*{
+    margin: 0;padding: 0; box-sizing: border-box;
+}
+body {
+    text-align: center;
+    padding: 120px 20px;
+    background: black url("../../img/imageNight.jpg");
+    background-size: cover;
+}
+div{
+background: url(
+"https://www.seekpng.com/png/full/3-34478_blue-wolf-png-wolf-logo-design-png.png"
+
+)no-repeat center;
+    background-origin: border-box;
+    height: 90vh;
+/*background-attachment: fixed*/
+}
+h1{
+    display: inline-block;
+    font-size: 80px;
+    line-height: 1.1;
+    padding: 20px;
+    font-family: 'Inter',sans-serif;
+    text-transform: uppercase;
+    background:
+    radial-gradient(circle farthest-corner at center center,
+    white,#111)no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

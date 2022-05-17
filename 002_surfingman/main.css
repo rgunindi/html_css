@@ -1,0 +1,19 @@
+body{
+    background-color: green;
+}
+.img--top{
+    border: 10px yellow groove;
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*box-sizing: border-box;*/
+    border-radius: 45%;
+    margin: 10px auto;
+    display: block;
+}
+.h1{
+    color: blue;
+}.h2{
+    color: red;
+}

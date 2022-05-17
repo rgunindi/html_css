@@ -1,0 +1,47 @@
+li:nth-child(3){
+    color: red;
+}
+
+[target]{
+    border: 1px solid mediumslateblue;
+}
+#li2{
+    background-color: green;
+}
+a:active{
+    border: 2px hotpink solid;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: salmon;
+}
+a:hover{
+    color: blueviolet;
+}
+p::first-letter{
+    font-size: 32px;
+    font-family: "CaskaydiaCove Nerd Font Mono", serif;
+}
+p::first-line{
+    color: red;
+}
+/*select all p tag in div*/
+/*div p{*/
+/*    color: red;*/
+/*}*/
+
+/*select immediate p tag in div*/
+/*div > p{*/
+/*    background-color: orange;*/
+/*}*/
+
+/*select sibling first p tag in div*/
+div + p{
+    background-color: chartreuse;
+}
+/*select sibling all p tag in div*/
+div ~ p {
+    background-color:darkblue;
+}

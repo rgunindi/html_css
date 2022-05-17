@@ -1,0 +1,33 @@
+body{
+    display: inline-block;
+}
+*{margin: 50px}
+header {
+    width: 100%;
+    background-color: brown;
+    height: 100px;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+    background-color: salmon;
+    height: 250px;
+}
+
+article {
+    width: 50%;
+    background-color: orange;
+    height: 100px;
+}
+
+aside, footer {
+    width: 100%;
+    background-color: yellow;
+    height: 100px;
+}
+div{
+    background-color: blueviolet;
+    margin: 50px auto;
+    width: 100%;
+}

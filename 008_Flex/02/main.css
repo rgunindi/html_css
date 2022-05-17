@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    background-color: mediumslateblue;
+    border: 2px solid blueviolet;
+    justify-content: space-between;
+    /*Bu, gerektiğinde esnek bir öğenin büyüme yeteneğini tanımlar.*/
+    /*flex-grow: 4;*/
+    /*default*/
+    /*flex-direction: row;*/
+    /*flex-wrap: nowrap;*/
+    /*This is a shorthand for the flex-direction
+     and flex-wrap properties, which together define the flex container’s main
+     and cross axes.
+    The default value is row nowrap.*/
+    /*flex-flow: column wrap;*/
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-right: 10px;
+}
+a{
+    color: white;
+    margin: 0;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #ff9548;
+}
+.logo img{
+    width: 100px;
+    height: 80px;
+}

@@ -1,0 +1,16 @@
+html,body,ul,li,a{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    flex-flow: column nowrap;
+}
+a{
+    display: block;
+}
+p{
+    font-size: 4rem;
+}

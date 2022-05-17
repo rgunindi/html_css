@@ -1,0 +1,23 @@
+html{
+    margin: 15px;
+}
+body{
+    position: relative;
+    border: 4px black solid;
+    max-width: 700px;
+    margin: 0 auto;
+}
+#list{
+    position: absolute;
+    width: 100px;
+}
+#desc{
+    border-left: 1px black dashed;
+    margin-left: 120px;
+    /*   body border gorunmedigi icin
+    margin left ile yaotim*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 120px;*/
+    padding-left: 20px;
+}

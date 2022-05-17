@@ -1,0 +1,23 @@
+body{
+    padding: 0 2em;
+}
+aside{width: 50%}
+/*aside{*/
+/*    width: 25%;*/
+/*}*/
+/*header{*/
+/*    order: -1;*/
+/*}*/
+/*article{*/
+/*    width: 50%;*/
+/*    order: 3;*/
+/*}*/
+/*aside:nth-child(1){*/
+/*    order: 2;*/
+/*}*/
+/*aside:nth-child(2){*/
+/*    order: 4;*/
+/*}*/
+/*footer{*/
+/*    order: 5;*/
+/*}*/

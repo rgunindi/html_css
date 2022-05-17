@@ -1,0 +1,12 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+div{
+    border:4px solid red;
+    width: 200px;
+    height: 200px;
+}
+#float1{float: right}
+#float2{clear: both}
