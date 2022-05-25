@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+body {
+    border: 3px solid hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff9548;
+}
+div{
+    animation-name: europanime;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.europa {
+    font-size: 1em;
+    width: 1em;height: 1em;
+    fill: currentColor;
+}
+
+@keyframes europanime {
+    0% {font-size: 1rem;
+        color: red;
+        transform: rotate(0deg);
+    }
+    100% {
+        font-size: 20rem;
+        color: blue;
+        transform: rotate(360deg);
+
+    }
+}
